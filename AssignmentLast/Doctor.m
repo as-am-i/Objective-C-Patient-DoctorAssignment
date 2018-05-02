@@ -15,8 +15,15 @@
     if (self) {
         _name = name;
         _specialization = specialization;
+        _acceptedPatients = [NSMutableArray new];
     }
     return self;
+}
+
+-(void)askPatientsCards:(Patient *)patient andAnswer:(BOOL)answer{
+    if (answer == YES) {
+        [self.acceptedPatients addObject:patient];
+    }
 }
 
 @end

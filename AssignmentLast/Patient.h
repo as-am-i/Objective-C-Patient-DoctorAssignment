@@ -12,6 +12,7 @@
 
 @property NSString *name;
 @property int age;
+@property BOOL hasValidCard;
 
 
 -(instancetype)initWithName:(NSString *)name andAge:(int)age;
