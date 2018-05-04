@@ -10,6 +10,10 @@
 		2A46E4A2209A5FA700BC3F88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46E4A1209A5FA700BC3F88 /* main.m */; };
 		2A46E4AA209A5FD800BC3F88 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46E4A9209A5FD800BC3F88 /* Doctor.m */; };
 		2A46E4AD209A5FED00BC3F88 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46E4AC209A5FED00BC3F88 /* Patient.m */; };
+		2A46E4B0209BAB6600BC3F88 /* Symptom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46E4AF209BAB6600BC3F88 /* Symptom.m */; };
+		2A46E4B3209BAC0600BC3F88 /* Prescription.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46E4B2209BAC0600BC3F88 /* Prescription.m */; };
+		2A46E4B6209BBE3200BC3F88 /* HealthRegistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46E4B5209BBE3200BC3F88 /* HealthRegistory.m */; };
+		2A46E4B9209CF91E00BC3F88 /* InputCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A46E4B8209CF91D00BC3F88 /* InputCollector.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +35,14 @@
 		2A46E4A9209A5FD800BC3F88 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		2A46E4AB209A5FED00BC3F88 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
 		2A46E4AC209A5FED00BC3F88 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		2A46E4AE209BAB6600BC3F88 /* Symptom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Symptom.h; sourceTree = "<group>"; };
+		2A46E4AF209BAB6600BC3F88 /* Symptom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Symptom.m; sourceTree = "<group>"; };
+		2A46E4B1209BAC0600BC3F88 /* Prescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prescription.h; sourceTree = "<group>"; };
+		2A46E4B2209BAC0600BC3F88 /* Prescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prescription.m; sourceTree = "<group>"; };
+		2A46E4B4209BBE3200BC3F88 /* HealthRegistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthRegistory.h; sourceTree = "<group>"; };
+		2A46E4B5209BBE3200BC3F88 /* HealthRegistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthRegistory.m; sourceTree = "<group>"; };
+		2A46E4B7209CF91D00BC3F88 /* InputCollector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputCollector.h; sourceTree = "<group>"; };
+		2A46E4B8209CF91D00BC3F88 /* InputCollector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputCollector.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +78,26 @@
 				2A46E4A1209A5FA700BC3F88 /* main.m */,
 				2A46E4A8209A5FD800BC3F88 /* Doctor.h */,
 				2A46E4A9209A5FD800BC3F88 /* Doctor.m */,
+				2A46E4B4209BBE3200BC3F88 /* HealthRegistory.h */,
+				2A46E4B5209BBE3200BC3F88 /* HealthRegistory.m */,
+				2A46E4B1209BAC0600BC3F88 /* Prescription.h */,
+				2A46E4B2209BAC0600BC3F88 /* Prescription.m */,
+				2A46E4AE209BAB6600BC3F88 /* Symptom.h */,
+				2A46E4AF209BAB6600BC3F88 /* Symptom.m */,
 				2A46E4AB209A5FED00BC3F88 /* Patient.h */,
 				2A46E4AC209A5FED00BC3F88 /* Patient.m */,
+				2A46E4BA209CF92800BC3F88 /* InputCollector */,
 			);
 			path = AssignmentLast;
+			sourceTree = "<group>";
+		};
+		2A46E4BA209CF92800BC3F88 /* InputCollector */ = {
+			isa = PBXGroup;
+			children = (
+				2A46E4B7209CF91D00BC3F88 /* InputCollector.h */,
+				2A46E4B8209CF91D00BC3F88 /* InputCollector.m */,
+			);
+			path = InputCollector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,8 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A46E4AD209A5FED00BC3F88 /* Patient.m in Sources */,
+				2A46E4B0209BAB6600BC3F88 /* Symptom.m in Sources */,
 				2A46E4AA209A5FD800BC3F88 /* Doctor.m in Sources */,
 				2A46E4A2209A5FA700BC3F88 /* main.m in Sources */,
+				2A46E4B6209BBE3200BC3F88 /* HealthRegistory.m in Sources */,
+				2A46E4B9209CF91E00BC3F88 /* InputCollector.m in Sources */,
+				2A46E4B3209BAC0600BC3F88 /* Prescription.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

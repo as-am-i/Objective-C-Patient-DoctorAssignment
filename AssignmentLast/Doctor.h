@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "Patient.h"
+#import "Symptom.h"
+
+@class Prescription;
 
 @interface Doctor : NSObject
 
@@ -16,6 +19,7 @@
 @property NSMutableArray *acceptedPatients;
 
 -(instancetype)initWithName:(NSString *)name andSpecialization:(NSString *)specialization;
--(void)askPatientsCards:(Patient *)patient andAnswer:(BOOL)answer;
+-(void)askPatientsCards:(Patient *)patient andAnswer:(NSString *)answer;
+-(Prescription *)requestMedication:(Patient *)patient andSymptoms:(Symptom *)symptoms;
 
 @end
